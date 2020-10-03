@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.example.animationdemo.circleAnimation
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.example.animationdemo.circleAnimation>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/image"
+        android:layout_gravity="center"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b11"
+        android:text="start"
+        android:layout_marginHorizontal="20dp"
+
+        android:onClick="frameAnimation"/>
+    <Button
+        android:text="stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b12"
+        android:layout_marginHorizontal="20dp" android:onClick="frameAnimation"/>
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlphaAnimation"
+        android:id="@+id/b13"
+        android:onClick="mytweenanimation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scale"
+        android:id="@+id/b14"
+        android:onClick="mytweenanimation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        android:id="@+id/b15"
+        android:onClick="mytweenanimation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotate"
+        android:id="@+id/b16"
+        android:onClick="mytweenanimation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TranslateRotate"
+        android:id="@+id/b17"
+        android:onClick="mytweenanimation"/>
+</LinearLayout>
